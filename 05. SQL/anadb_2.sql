@@ -94,8 +94,8 @@ select distinct dep_id,sum(salary) as "Total_sal" from myemp group by DEP_ID hav
 		# *HAVING
         # to filter calculations, usded aftwer grouping, will not work without grouping. 
  
- /* select statement			#डेटा fetch करण्यासाठी वापरतो — म्हणजे काय-काय columns पाहायचे ते सांगतो.
-	where statement			# डेटा filter करण्यासाठी वापरतो — condition लावायला.
+ /* select statement			#डेटा fetch (acccess) करण्यासाठी वापरतो — म्हणजे काय-काय columns पाहायचे ते सांगतो.
+	where statement			# डेटा filter करण्यासाठी वापरतो — condition लावायला. कुठून कुठपेयनत पाहिजे 
 	group by statement			#डेटा group करून aggregate functions (SUM, COUNT, AVG, MAX, MIN) वापरतो.
 								हे reports आणि summaries बनवण्यासाठी वापरलं जातं
     having statement			#HAVING हा WHERE सारखाच आहे, पण GROUP BY नंतर use होतो.
